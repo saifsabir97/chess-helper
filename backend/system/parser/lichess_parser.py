@@ -15,7 +15,7 @@ class LichessParser(Parser):
         child_node = child_node.replace("<j></j>", "")
         child_node = child_node.replace("><", ">\n<")
         child_node = child_node.split("\n")
-        child_node = child_node[1:]
+        child_node = child_node[1:-1]
 
         moves = []
         for index, move_node in enumerate(child_node):
