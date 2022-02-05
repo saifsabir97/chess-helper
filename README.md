@@ -15,3 +15,9 @@ A chrome extension + backend system to get next best move for an ongoing game in
 * #### Setting up the Backend Flask API:
   * Download all the dependencies present inside backend/requirements.txt file by running 'pip install requirements.txt'.
   * Run api.py after downloading the dependencies to start backend server.
+
+* #### Start any game in one of the supported platforms:
+  * Click on extension icon to get a json response back with the next move details.
+
+## **Tested Platorm**
+* #### Macbook Air M1, Chrome full screen(screen size may cause html attributes to change due to which board state can't be parsed properly)
