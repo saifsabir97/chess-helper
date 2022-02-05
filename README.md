@@ -5,6 +5,9 @@ A chrome extension + backend system to get next best move for an ongoing game in
 * https://lichess.org
 * https://chess.com
 
+## **Currently Supported Engines**
+* stockfish
+
 ## **Steps to set up the project**
 * #### Setting up the extension:
 
