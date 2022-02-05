@@ -13,6 +13,7 @@ A chrome extension + backend system to get next best move for an ongoing game in
   * Browse to the extension folder of this project and upload.
   
 * #### Setting up the Backend Flask API:
+  * Use homebrew to download stockfish engine in your system.
   * Download all the dependencies present inside backend/requirements.txt file by running 'pip install requirements.txt'.
   * Run api.py after downloading the dependencies to start backend server.
 
