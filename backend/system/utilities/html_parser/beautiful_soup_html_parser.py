@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from system.utilities.html_parser.custom_html_parser import CustomHTMLParser
+from backend.system.utilities.html_parser.custom_html_parser import CustomHTMLParser
 
 
 class BeautifulSoupCustomHTMLParser(CustomHTMLParser):

@@ -1,7 +1,7 @@
-from system.parser.chess_dot_com_parser import ChessDotComParser
-from system.parser.parser import Parser
-from system.parser.lichess_parser import LichessParser
-from system.constants import Platform
+from backend.system.constants import Platform
+from backend.system.parser.chess_dot_com_parser import ChessDotComParser
+from backend.system.parser.lichess_parser import LichessParser
+from backend.system.parser.parser import Parser
 
 
 class ParserFactory:

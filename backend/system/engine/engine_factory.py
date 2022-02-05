@@ -1,6 +1,6 @@
-from system.constants import EngineType
-from system.engine.engine import Engine
-from system.engine.stockfish_engine import StockfishEngine
+from backend.system.constants import EngineType
+from backend.system.engine.engine import Engine
+from backend.system.engine.stockfish_engine import StockfishEngine
 
 
 class EngineFactory:

@@ -2,13 +2,13 @@ import urllib.parse
 
 from flask import Flask, request, Response
 
-from system.constants import Platform, EngineType
-from system.system import System
+from backend.system.constants import EngineType, Platform
+from backend.system.system import System
 
-api = Flask(__name__)
+app = Flask(__name__)
 
 
-@api.route('/getNextMove', methods=['POST'])
+@app.route('/getNextMove', methods=['POST'])
 def get_next_move():
     # TODO: get engine preference from user directly
     engine_type = EngineType['stockfish']
@@ -37,4 +37,4 @@ def get_next_move():
 
 
 if __name__ == '__main__':
-    api.run()
+    app.run()

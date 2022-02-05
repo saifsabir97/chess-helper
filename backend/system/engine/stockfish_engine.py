@@ -1,7 +1,8 @@
-from system.engine.engine import Engine
+
 from stockfish import Stockfish
 
-from system.move import Move
+from backend.system.engine.engine import Engine
+from backend.system.move import Move
 
 
 class StockfishEngine(Engine):

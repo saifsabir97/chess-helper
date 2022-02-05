@@ -1,6 +1,6 @@
-from system.parser.parser import Parser
-from system.move import Move
-from system.utilities.html_parser.beautiful_soup_html_parser import BeautifulSoupCustomHTMLParser
+from backend.system.move import Move
+from backend.system.parser.parser import Parser
+from backend.system.utilities.html_parser.beautiful_soup_html_parser import BeautifulSoupCustomHTMLParser
 
 
 class LichessParser(Parser):
