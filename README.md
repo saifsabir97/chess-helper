@@ -22,7 +22,3 @@ A chrome extension + backend system to get next best move for an ongoing game in
 
 * #### Start any game in one of the supported platforms:
   * Click on extension icon to get a json response back with the next move details.
-
-## **Tested Platorm**
-* #### Macbook Air M1, Chrome full screen(screen size may cause html attributes to change due to which board state may not be parsed properly)
-* #### Windows. You'll need to download stockfish binary and update env path(or place it somewhere in the backend directory, could be root backend directory or engine directory. i dont have windows to test :()
