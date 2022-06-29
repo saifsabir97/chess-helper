@@ -1,6 +1,8 @@
 # chess-helper
 A chrome extension + backend system to get next best move for an ongoing game in various platforms.
 
+See demo: https://youtu.be/U3SGsOJQ8ss
+
 ## **Currently Supported Platforms**
 * https://lichess.org
 * https://chess.com
